@@ -12,6 +12,7 @@ const Start_section = () => {
     } else {
         return(
             <Profile />
+            
         )
     }
     

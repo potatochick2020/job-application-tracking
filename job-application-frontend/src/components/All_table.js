@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react'
 import Profile from './Profile';
-const Start_section = () => {
+const All_table = () => {
     const { user } = useAuth0();
     if (user == null){
         return(
@@ -18,4 +18,4 @@ const Start_section = () => {
     
 }
 
-export default Start_section
+export default All_table
